@@ -1,0 +1,5 @@
+#Write a Python program to Collect user name and greet him/her based on the time of the day.
+import datetime
+name=input("Please enter your name:")
+now=datetime.datetime.now()
+print(f"Hi {name}, hope you are doing good. Its {now}")
